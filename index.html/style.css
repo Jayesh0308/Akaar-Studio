@@ -1,0 +1,209 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#f5f2ec;
+color:#111;
+}
+
+
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:white;
+position:sticky;
+top:0;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+font-weight:bold;
+}
+
+.logo img{
+height:40px;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:#111;
+font-weight:500;
+}
+
+
+
+/* HERO */
+
+.hero{
+padding:120px 60px;
+max-width:900px;
+}
+
+.hero h1{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.hero p{
+margin-bottom:20px;
+}
+
+.hero button{
+padding:14px 24px;
+background:black;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+
+
+/* SERVICES */
+
+.services{
+padding:80px 60px;
+}
+
+.services h2{
+font-size:36px;
+margin-bottom:40px;
+}
+
+.service-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+padding:20px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card img{
+width:100%;
+height:200px;
+object-fit:cover;
+border-radius:8px;
+margin-bottom:15px;
+}
+
+
+
+/* TESTIMONIALS */
+
+.testimonials{
+padding:80px 60px;
+}
+
+.testimonial-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+}
+
+.testimonial{
+background:white;
+padding:25px;
+border-radius:10px;
+}
+
+.testimonial img{
+height:40px;
+margin-bottom:10px;
+}
+
+
+
+/* CONTACT */
+
+.contact{
+background:#0c1116;
+color:white;
+padding:80px 60px;
+}
+
+.contact-container{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea{
+width:100%;
+padding:12px;
+margin-bottom:15px;
+border-radius:6px;
+border:none;
+}
+
+.contact-form button{
+width:100%;
+padding:14px;
+background:#2563eb;
+border:none;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+.contact-info p{
+margin-top:15px;
+}
+
+
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+.service-grid{
+grid-template-columns:1fr;
+}
+
+.testimonial-grid{
+grid-template-columns:1fr;
+}
+
+.contact-container{
+grid-template-columns:1fr;
+}
+
+.hero h1{
+font-size:36px;
+}
+
+}

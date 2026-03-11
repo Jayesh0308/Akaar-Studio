@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Akaar Studio</title>
+
+<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="logo">
+<img src="./Images/website logo.png">
+<span>Akaar Studio</span>
+</div>
+
+<nav>
+
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+
+
+<section id="home" class="hero">
+
+<h1>We turn brands into experiences people remember.</h1>
+
+<p>
+Akaar Studio blends design, storytelling and strategy to help brands grow
+with clarity and confidence.
+</p>
+
+<button onclick="document.getElementById('contact').scrollIntoView()">
+Start Your Project
+</button>
+
+</section>
+
+
+
+<section id="services" class="services">
+
+<h2>Creative Services Built for Growth</h2>
+
+<div class="service-grid">
+
+
+<div class="card">
+
+<img src="./Images/Logo design.png">
+
+<h3>Graphic Design</h3>
+
+<p>Creative visuals that build strong brand identity.</p>
+
+</div>
+
+
+<div class="card">
+
+<img src="./Images/Videography.png">
+
+<h3>Videography</h3>
+
+<p>Short-form reels and cinematic storytelling.</p>
+
+</div>
+
+
+<div class="card">
+
+<img src="./Images/photography.png">
+
+<h3>Photography</h3>
+
+<p>Professional imagery capturing product and personality.</p>
+
+</div>
+
+
+<div class="card">
+
+<img src="./Images/branding.png">
+
+<h3>Branding</h3>
+
+<p>Visual identity systems that make brands memorable.</p>
+
+</div>
+
+
+<div class="card">
+
+<img src="./Images/influencer marketing.png">
+
+<h3>Influencer Marketing</h3>
+
+<p>Authentic creator collaborations.</p>
+
+</div>
+
+
+<div class="card">
+
+<img src="./Images/Social media management.png">
+
+<h3>Social Media Management</h3>
+
+<p>Strategy-led social media growth.</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="testimonials">
+
+<h2>Voices from brands we've worked with</h2>
+
+<div class="testimonial-grid">
+
+
+<div class="testimonial">
+
+<img src="./Images/shorex.png">
+
+<p>
+“Vibrant and encouraging enthusiasm — exactly what Akaar brought to us.”
+</p>
+
+<strong>Shorex Esports</strong>
+
+</div>
+
+
+<div class="testimonial">
+
+<img src="./Images/biryani.png">
+
+<p>
+“Creative and full of fresh ideas. They instantly understood our brand vibe.”
+</p>
+
+<strong>The Biryan</strong>
+
+</div>
+
+
+<div class="testimonial">
+
+<img src="./Images/ghumakkad.jpg">
+
+<p>
+“Good ideas and great creativity. Smooth experience working with them.”
+</p>
+
+<strong>Ghumakkad Community</strong>
+
+</div>
+
+
+<div class="testimonial">
+
+<img src="./Images/chocolate-house.png">
+
+<p>
+“The best guys to work with — young, energetic and reliable.”
+</p>
+
+<strong>The Chocolate House Cafe</strong>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="contact" class="contact">
+
+<div class="contact-container">
+
+
+<div class="contact-form">
+
+<h2>Let's Connect</h2>
+
+<form action="https://formsubmit.co/contact.akaarstudio@gmail.com" method="POST">
+
+<input type="text" name="name" placeholder="Your name" required>
+
+<input type="email" name="email" placeholder="Your email" required>
+
+<input type="tel" name="phone" placeholder="Phone number">
+
+<select name="service">
+
+<option>Logo Design</option>
+<option>Videography</option>
+<option>Photography</option>
+<option>Branding</option>
+<option>Social Media Management</option>
+<option>Influencer Marketing</option>
+
+</select>
+
+<textarea name="message" placeholder="Your message"></textarea>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</div>
+
+
+<div class="contact-info">
+
+<h2>Your Creative Marketing Partner</h2>
+
+<p>
+We craft strategies that connect, create and convert.
+From concept to campaign, we turn your digital presence into lasting growth.
+</p>
+
+<p><strong>Email</strong><br>contact.akaarstudio@gmail.com</p>
+
+<p><strong>Phone</strong><br>+91 9970600412</p>
+
+<p><strong>Address</strong><br>Tathawade, Pune - 411033</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<footer>
+
+<p>© 2026 Akaar Studio</p>
+
+</footer>
+
+
+</body>
+</html>
